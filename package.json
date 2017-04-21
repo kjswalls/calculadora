@@ -1,0 +1,24 @@
+{
+  "name": "calculadora",
+  "version": "1.0.0",
+  "description": "JavaScript calculator for FreeCodeCamp",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.15.2",
+    "jquery": "^3.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kjswalls/calculadora.git"
+  },
+  "author": "kirby walls",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kjswalls/calculadora/issues"
+  },
+  "homepage": "https://github.com/kjswalls/calculadora#readme"
+}
