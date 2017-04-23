@@ -1,0 +1,110 @@
+@font-face {
+	font-family: 'AvenirNext';
+	src: url('../fonts/AvenirNextRegular.otf');
+	/*src: local('Avenir Next'), local('Avenir'), url('fonts/riesling.ttf') format('truetype');*/
+}
+
+body {
+    font-family: 'AvenirNext', sans-serif;
+    color: #342A2A;
+}
+
+.container {
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+.outline {
+    border: 2px solid #44BEEF;
+    border-radius: 10px;
+    width: 400px;
+    height: 605px;
+    margin: 10% auto 0;
+}
+
+.display {
+    height: 200px;
+    text-align: right;
+}
+
+.disp-cont {
+    margin-right: 15%;
+    padding-top: 15%;
+    box-sizing: border-box;
+}
+
+.output {
+    font-size: 4em;
+    margin-bottom: 5%;
+}
+
+.history {
+    color: #D5DAE0;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.row div {
+    display: inline-block;
+}
+
+.grow {
+    transition: all 0.2s ease-in-out;
+}
+
+button {
+    font-size: 1.5em;
+    transition: all 0.3s ease-in-out;
+}
+
+.button button:active {
+    transform: scale(1.5);
+}
+
+button:focus {
+    outline: none;
+}
+
+.button button {
+    width: 80px;
+    height: 80px;
+    border: none;
+    border-radius: 50%;
+    background-color: #fff;
+    color: #342A2A;
+}
+
+.button button:hover {
+    color: #44BEEF;
+}
+
+.equals {
+    margin: -5% auto 0;
+    text-align: center;
+}
+
+.equals button {
+    background-color: #44BEEF;
+    border: none;
+    border-radius: 10px;
+    height: 70px;
+    width: 210px;
+    color: #fff;
+    transition-duration: 0.2s;
+}
+
+.equals button:hover {
+    color: #44BEEF;
+    background-color: #fff;
+    border: 2px solid #44BEEF;
+}
+
+.equals button:active {
+    background-color: #44BEEF;
+}
+
