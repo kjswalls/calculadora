@@ -36,10 +36,15 @@ body {
 .output {
     font-size: 4em;
     margin-bottom: 5%;
+    overflow: auto;
+    padding-left: 15%;
 }
 
 .history {
     color: #D5DAE0;
+    overflow: auto;
+    padding-left: 15%;
+    max-height: 40px;
 }
 
 .body {
